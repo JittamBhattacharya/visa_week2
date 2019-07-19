@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Online chat</title>
+</head>
+<body>
+<form action="ChatServlet" method="post">
+	<input type="text" name="msg" required/>
+	<button type="submit">Send Message</button>
+</form>
+</body>
+</html>

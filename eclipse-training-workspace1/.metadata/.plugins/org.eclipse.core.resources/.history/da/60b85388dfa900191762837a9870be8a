@@ -1,0 +1,48 @@
+package com.visa.prj.dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Repository;
+import com.visa.prj.entity.Actor;
+import com.visa.prj.entity.Movie;
+
+@Repository
+@Transactional
+public class MovieDaoJpaImpl implements MovieDao {
+	
+	@PersistenceContext
+	private EntityManager em;
+
+	@Override
+	public void addMovie(Movie m) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void addActor(Actor a) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Movie getMovie(int movieId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Actor getACtor(int actorId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void assignActorstoMovie(Movie m) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

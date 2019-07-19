@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product  App</title>
+</head>
+<body>
+	<h1>Product Application</h1>
+	<a href="login.html"> Login </a> <br />
+	<a href="form.html">Add a Product</a>
+	<a href="products">List Products</a>
+	<a href="game">Play our Game</a>
+</body>
+</html>

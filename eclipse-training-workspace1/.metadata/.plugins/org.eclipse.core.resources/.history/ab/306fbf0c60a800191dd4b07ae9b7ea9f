@@ -1,0 +1,24 @@
+package com.visa.prj.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.visa.prj.dao.ProductDao;
+import com.visa.prj.entity.Product;
+
+@Service
+public class OrderService {
+
+	@Autowired
+	private ProductDao productDao;
+	
+	
+	public void addProduct(Product P) {
+		productDao.addProduct(p);
+	}
+	
+	
+	
+	
+	
+}

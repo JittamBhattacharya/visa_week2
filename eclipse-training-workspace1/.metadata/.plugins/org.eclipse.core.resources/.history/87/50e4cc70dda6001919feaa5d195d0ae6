@@ -1,0 +1,22 @@
+public List<Product> getProducts() throws FetchException {
+		List<Product> products = new ArrayList<>();
+		String SQL = "select * from products";
+		Connection con = null;
+		try {
+			con = DbUtil.getConnection();
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery(SQL);
+			while(rs.next()) {
+				products.add(new Product(rs.getInt("id"), 
+						rs.getString("name"),
+						rs.getString("category"),
+						rs.getDouble("price"),
+						rs.getInt("count")));
+			}
+		} catch (SQLException ex) {
+			throw new FetchException("unable to get products", ex);
+		} finally {
+			DbUtil.closeConnection(con);
+		}
+		return products;
+	}

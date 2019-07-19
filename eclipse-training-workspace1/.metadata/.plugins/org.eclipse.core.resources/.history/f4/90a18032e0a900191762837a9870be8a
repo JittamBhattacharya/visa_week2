@@ -1,0 +1,17 @@
+package com.visa.prj.client;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.visa.prj.dao.MovieDao;
+
+public class MovieClient {
+
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
+		ctx.scan("com.visa");
+		ctx.refresh();
+		
+		MovieDao dao = ctx.getBean("movieDaoJpaImpl")
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.visa.prj.client;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.visa.prj.entity.Booking;
+import com.visa.prj.entity.User;
+
+public class BookingClient {
+
+	public static void main(String[] args) {
+
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
+		ctx.scan("com.visa");
+		ctx.refresh();
+		
+		User u = new User();
+		
+		Booking b = new Booking();
+		
+	}
+
+}

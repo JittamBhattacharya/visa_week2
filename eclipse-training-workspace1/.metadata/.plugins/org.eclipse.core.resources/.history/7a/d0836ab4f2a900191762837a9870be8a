@@ -1,0 +1,53 @@
+package com.visa.prj.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Repository;
+
+import com.visa.prj.entity.Booking;
+import com.visa.prj.entity.Hotel;
+import com.visa.prj.entity.User;
+
+
+@Repository
+@Transactional
+public class BookingDaoJpaImpl implements BookingDao {
+
+	@PersistenceContext
+	private EntityManager em;
+	
+	@Override
+	public List<Hotel> findHotels(String criteria) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Hotel findHotelById(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User getUser(String email, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public long createBooking(Booking booking) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Booking> getAllBookingsOfUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

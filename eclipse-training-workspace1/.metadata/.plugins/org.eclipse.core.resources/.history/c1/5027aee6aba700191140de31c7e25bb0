@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Guessing Game</h2>
+<h3>What is the capital of bangalore?</h3>
+<p>Answer : 234567</p>
+Write your character:<t><input type="text" name="guess">
+</body>
+</html>

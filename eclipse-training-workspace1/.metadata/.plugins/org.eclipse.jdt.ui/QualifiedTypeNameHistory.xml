@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletOutputStream"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="com.visa.prj.dao.ProductDao"/>
+<fullyQualifiedTypeName name="com.visa.prj.dao.ProductDaoJdbcImpl"/>
+<fullyQualifiedTypeName name="com.visa.prj.dao.PersistenceException"/>
+</qualifiedTypeNameHistroy>

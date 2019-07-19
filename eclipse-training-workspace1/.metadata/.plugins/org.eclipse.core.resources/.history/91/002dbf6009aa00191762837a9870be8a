@@ -1,0 +1,17 @@
+package com.visa.prj.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.visa.prj.dao.BookingDao;
+
+@Service
+public class BookingService {
+	
+	
+	@Autowired
+	private BookingDao bookingDao;
+	
+	
+
+}

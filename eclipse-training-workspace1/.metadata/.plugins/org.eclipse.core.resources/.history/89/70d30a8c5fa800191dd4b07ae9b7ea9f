@@ -1,0 +1,24 @@
+package com.visa.prj.dao;
+
+import java.util.List;
+
+import com.visa.prj.entity.Product;
+
+public class ProductDaoJpaImpl implements ProductDao {
+
+	@Override
+	public void addProduct(Product p) {
+
+	}
+
+	@Override
+	public List<Product> getProducts() {
+		return null;
+	}
+
+	@Override
+	public Product getProduct(int id) {
+		return null;
+	}
+
+}
